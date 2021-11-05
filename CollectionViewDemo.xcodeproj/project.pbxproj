@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D7633D62734E467008F5466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633D52734E467008F5466 /* AppDelegate.m */; };
 		0D7633D92734E467008F5466 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633D82734E467008F5466 /* SceneDelegate.m */; };
-		0D7633DC2734E467008F5466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633DB2734E467008F5466 /* ViewController.m */; };
 		0D7633DF2734E467008F5466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7633DD2734E467008F5466 /* Main.storyboard */; };
 		0D7633E12734E469008F5466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7633E02734E469008F5466 /* Assets.xcassets */; };
 		0D7633E42734E469008F5466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7633E22734E469008F5466 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,8 @@
 		0D7633F12734E469008F5466 /* CollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633F02734E469008F5466 /* CollectionViewDemoTests.m */; };
 		0D7633FB2734E469008F5466 /* CollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633FA2734E469008F5466 /* CollectionViewDemoUITests.m */; };
 		0D7633FD2734E469008F5466 /* CollectionViewDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7633FC2734E469008F5466 /* CollectionViewDemoUITestsLaunchTests.m */; };
+		0D76340E2734E575008F5466 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76340D2734E575008F5466 /* CollectionViewController.m */; };
+		0D7634112734EBA6008F5466 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7634102734EBA6008F5466 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 		0D7633D52734E467008F5466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D7633D72734E467008F5466 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		0D7633D82734E467008F5466 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		0D7633DA2734E467008F5466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D7633DB2734E467008F5466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D7633DE2734E467008F5466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D7633E02734E469008F5466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D7633E32734E469008F5466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,10 @@
 		0D7633F62734E469008F5466 /* CollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7633FA2734E469008F5466 /* CollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		0D7633FC2734E469008F5466 /* CollectionViewDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0D76340C2734E575008F5466 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		0D76340D2734E575008F5466 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		0D76340F2734EBA6008F5466 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0D7634102734EBA6008F5466 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +111,9 @@
 				0D7633D52734E467008F5466 /* AppDelegate.m */,
 				0D7633D72734E467008F5466 /* SceneDelegate.h */,
 				0D7633D82734E467008F5466 /* SceneDelegate.m */,
-				0D7633DA2734E467008F5466 /* ViewController.h */,
-				0D7633DB2734E467008F5466 /* ViewController.m */,
-				0D7633DD2734E467008F5466 /* Main.storyboard */,
-				0D7633E02734E469008F5466 /* Assets.xcassets */,
-				0D7633E22734E469008F5466 /* LaunchScreen.storyboard */,
-				0D7633E52734E469008F5466 /* Info.plist */,
+				0D76340A2734E497008F5466 /* Views */,
+				0D7634092734E48D008F5466 /* Controllers */,
+				0D76340B2734E4B4008F5466 /* SupportingFiles */,
 				0D7633E62734E469008F5466 /* main.m */,
 			);
 			path = CollectionViewDemo;
@@ -134,6 +134,43 @@
 				0D7633FC2734E469008F5466 /* CollectionViewDemoUITestsLaunchTests.m */,
 			);
 			path = CollectionViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		0D7634092734E48D008F5466 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D76340C2734E575008F5466 /* CollectionViewController.h */,
+				0D76340D2734E575008F5466 /* CollectionViewController.m */,
+				0D7634122734EBAF008F5466 /* cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0D76340A2734E497008F5466 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D7633DD2734E467008F5466 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D76340B2734E4B4008F5466 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0D7633E02734E469008F5466 /* Assets.xcassets */,
+				0D7633E22734E469008F5466 /* LaunchScreen.storyboard */,
+				0D7633E52734E469008F5466 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0D7634122734EBAF008F5466 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0D76340F2734EBA6008F5466 /* CollectionViewCell.h */,
+				0D7634102734EBA6008F5466 /* CollectionViewCell.m */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7633DC2734E467008F5466 /* ViewController.m in Sources */,
+				0D76340E2734E575008F5466 /* CollectionViewController.m in Sources */,
+				0D7634112734EBA6008F5466 /* CollectionViewCell.m in Sources */,
 				0D7633D62734E467008F5466 /* AppDelegate.m in Sources */,
 				0D7633E72734E469008F5466 /* main.m in Sources */,
 				0D7633D92734E467008F5466 /* SceneDelegate.m in Sources */,
@@ -446,7 +484,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8C24H7PT3A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
+				INFOPLIST_FILE = CollectionViewDemo/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,7 +511,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8C24H7PT3A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
+				INFOPLIST_FILE = CollectionViewDemo/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
